@@ -1,2 +1,0 @@
-[General]
-commands="@ByteArray({\"2b25f76a_7300_46cf_acff_c0fa7b5ebfd8\":{\"command\":\"systemctl poweroff\",\"name\":\"Power off\"},\"5176296b_f987_4c5b_9096_19b96ee198c2\":{\"command\":\"systemctl suspend\",\"name\":\"Suspend\"},\"b2a80869_9cd5_4721_931e_fbaabd7167af\":{\"command\":\"rfkill toggle bluetooth\",\"name\":\"Bluetooth\"},\"b4162ac8_4013_4d48_83ca_6d660cf9aaba\":{\"command\":\"wayland-logout\",\"name\":\"Log out\"}})"
