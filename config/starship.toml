@@ -1,0 +1,175 @@
+# ~/.config/starship.toml
+
+# ================================
+# Gruvbox Prompt Format & Overall Style
+# Using HARDCODED HEX COLORS directly in format string for distinct dark powerline
+# ========================================================================
+format = """
+[](#689d6a)\
+$os\
+$username\
+[](fg:#689d6a bg:#458588)\
+$directory\
+[](fg:#458588 bg:#b16286)\
+$git_branch\
+$git_status\
+[](fg:#b16286 bg:#98971a)\
+$docker_context\
+[](fg:#98971a bg:#d65d0e)\
+$time\
+[ ](fg:#d65d0e)\
+"""
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+# ================================
+# Modules Configuration
+# Using HARDCODED HEX COLORS in module styles (neutral accents for bg, light text for fg)
+# ================================
+
+# General prompt character (e.g., the > or $)
+[character]
+# Text color on the background of the time module (gruvbox_neutral_orange)
+success_symbol = "[➜](bold #ebdbb2)" # light1 for general text on dark
+error_symbol = "[✗](bold #fb4934)"   # bright_red
+vicmd_symbol = "[V](bold #83a598)"   # bright_blue
+
+# Username module
+[username]
+show_always = true
+style_user = "bg:#689d6a fg:#ebdbb2" # neutral_aqua background, light1 foreground
+style_root = "bg:#689d6a fg:#fb4934" # neutral_aqua background, bright_red for root
+format = '[$user ]($style)'
+disabled = false
+
+# OS module (used if username is disabled)
+[os]
+style = "bg:#689d6a fg:#ebdbb2" # neutral_aqua background, light1 foreground
+disabled = false # Setting to false to make it appear and confirm color. Set to true if you prefer username
+format = '[$symbol ]($style)'
+
+# Directory module
+[directory]
+style = "bg:#458588 fg:#ebdbb2" # neutral_blue background, light1 foreground
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+# Optional path substitutions - customize these with your common paths
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+# C language module
+[c]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2" # neutral_purple background, light1 foreground
+format = '[ $symbol ($version) ]($style)'
+
+# C++ language module
+[cpp]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2" # neutral_purple background, light1 foreground
+format = '[ $symbol ($version) ]($style)'
+
+# Docker context module
+[docker_context]
+symbol = " "
+style = "bg:#98971a fg:#ebdbb2" # neutral_green background, light1 foreground
+format = '[ $symbol $context ]($style)'
+
+# Elixir language module
+[elixir]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Elm language module
+[elm]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Git branch module
+[git_branch]
+symbol = ""
+style = "bg:#b16286 fg:#ebdbb2" # neutral_purple background, light1 foreground
+format = '[ $symbol $branch ]($style)'
+
+# Git status module
+[git_status]
+conflicted = "[=(#fb4934 bold)](fg:#fb4934)" # bright_red
+ahead = "[⇡](fg:#b8bb26 bold)"              # bright_green
+behind = "[⇣](fg:#fb4934 bold)"              # bright_red
+diverged = "[⇕](fg:#fabd2f bold)"             # bright_yellow
+untracked = "[?](fg:#fe8019)"                # bright_orange
+stashed = "[S](fg:#928374)"                  # gray
+modified = "[!](fg:#fabd2f)"                 # bright_yellow
+staged = "[+](fg:#b8bb26)"                   # bright_green
+renamed = "[»](fg:#83a598)"                  # bright_blue
+deleted = "[✘](fg:#fb4934)"                  # bright_red
+style = "bg:#b16286" # Match git_branch background
+format = '[$all_status$ahead_behind ]($style)'
+
+# Golang language module
+[golang]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Gradle language module
+[gradle]
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Haskell language module
+[haskell]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Java language module
+[java]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Julia language module
+[julia]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Node.js language module
+[nodejs]
+symbol = ""
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Nim language module
+[nim]
+symbol = "󰆥 "
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Rust language module
+[rust]
+symbol = ""
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Scala language module
+[scala]
+symbol = " "
+style = "bg:#b16286 fg:#ebdbb2"
+format = '[ $symbol ($version) ]($style)'
+
+# Time module
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#d65d0e fg:#ebdbb2" # neutral_orange background, light1 foreground
+format = '[ ♥ $time ]($style)'

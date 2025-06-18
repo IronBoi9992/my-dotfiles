@@ -1,0 +1,15 @@
+# GIMP gimp-crop-tool options
+
+(aspect-denominator 1024)
+(aspect-numerator 1280)
+(desired-fixed-size-height 1024)
+(desired-fixed-size-width 1280)
+(fixed-rule-active yes)
+(overridden-fixed-size yes)
+(foreground
+    (color "R'G'B'A double" 32 "\0\0\0\240\203\175\355\77\0\0\0\240WS\343\77\0\0\0\240fW\327\77\0\0\0\0\0\0\360\77" 0))
+(background
+    (color "CIE LCH(ab) alpha float" 16 "\0\0\310B\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(pattern "Pine")
+
+# end of gimp-crop-tool options

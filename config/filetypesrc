@@ -1,0 +1,6 @@
+[EmbedSettings]
+embed-application/x-compressed-tar=false
+embed-application/x-shellscript=false
+embed-image/jpeg=false
+embed-text/css=false
+embed-text/plain=false

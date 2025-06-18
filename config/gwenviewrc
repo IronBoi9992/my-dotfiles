@@ -1,0 +1,42 @@
+MenuBar=Disabled
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[ImageView]
+AlphaBackgroundColor=0,0,0
+AlphaBackgroundMode=AbstractImageView::AlphaBackgroundCheckBoard
+ThumbnailSplitterSizes=491,140
+
+[MainWindow]
+MenuBar=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/ji.jpg
+File10[$e]=$HOME/Downloads/a_street_with_buildings_and_trees.png
+File2[$e]=$HOME/Downloads/96b492207a65b086d75be858239bf497.jpg
+File3[$e]=$HOME/Downloads/259519.jpg
+File4[$e]=$HOME/Downloads/fire.jpg
+File5[$e]=$HOME/Downloads/4e7371dd9cc57670072f263af9cc423a (1).jpg
+File6[$e]=$HOME/minecraftheme/menu-themes/banner.png
+File7[$e]=$HOME/Downloads/hollow.png
+File8[$e]=$HOME/Pictures/gowall/hollow.png
+File9[$e]=$HOME/Downloads/a_mountain_range_with_snow.png
+Name1[$e]=ji.jpg
+Name10[$e]=a_street_with_buildings_and_trees.png
+Name2[$e]=96b492207a65b086d75be858239bf497.jpg
+Name3[$e]=259519.jpg
+Name4[$e]=fire.jpg
+Name5[$e]=4e7371dd9cc57670072f263af9cc423a (1).jpg
+Name6[$e]=banner.png
+Name7[$e]=hollow.png
+Name8[$e]=hollow.png
+Name9[$e]=a_mountain_range_with_snow.png
+
+[SideBar]
+InformationSplitterSizes=217,258
+SideBarSplitterSizes=238,1104

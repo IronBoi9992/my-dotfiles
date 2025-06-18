@@ -1,0 +1,463 @@
+{
+   "checksum": "f7110d3d5dfe701322c51e206c273aba",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13288174903000000",
+            "date_last_used": "13393191125324445",
+            "guid": "9f81d1c8-c7e2-4bda-bb1d-aa936c418f88",
+            "id": "5",
+            "name": "Youtube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13288775351000000",
+            "date_last_used": "13393189090675331",
+            "guid": "64a1cce1-4597-42ab-99f2-87860e547182",
+            "id": "6",
+            "name": "Instagram • Chats",
+            "type": "url",
+            "url": "https://www.instagram.com/direct/inbox/"
+         }, {
+            "date_added": "13288772234000000",
+            "date_last_used": "0",
+            "guid": "ca752d91-cf02-458f-876b-598a9895fb46",
+            "id": "7",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/"
+         }, {
+            "date_added": "13288983092000000",
+            "date_last_used": "0",
+            "guid": "8f036818-62be-4584-9262-7b3de01e6f4a",
+            "id": "8",
+            "name": "Desmos",
+            "type": "url",
+            "url": "https://www.desmos.com/calculator"
+         }, {
+            "date_added": "13289291869000000",
+            "date_last_used": "0",
+            "guid": "27dba4b4-b8c3-42a0-bba5-42f5086bb28f",
+            "id": "9",
+            "name": "Mordekaiser Build Guide : Raen's Mordekaiser Tips &amp; Build (¬‿^) :: League of Legends Strategy Builds",
+            "type": "url",
+            "url": "https://www.mobafire.com/league-of-legends/build/raens-mordekaiser-tips-amp-build-569896"
+         }, {
+            "date_added": "13289906172000000",
+            "date_last_used": "0",
+            "guid": "06d5b4d1-9446-4a4f-aad3-a1c57a5dcd29",
+            "id": "10",
+            "name": "Home - KillerSkins",
+            "type": "url",
+            "url": "https://killerskins.com/"
+         }, {
+            "date_added": "13291233297000000",
+            "date_last_used": "0",
+            "guid": "d054b1a3-c42b-4a6f-8836-e82ee9b39d08",
+            "id": "11",
+            "name": "https://www.daraz.com.bd/products/2-pcs-cotton-army-hat-black-1-pcs-baseball-cap-urban-hat-1-pcs-captain-sailor-marine-cap-i138564388.html",
+            "type": "url",
+            "url": "https://www.daraz.com.bd/products/2-pcs-cotton-army-hat-black-1-pcs-baseball-cap-urban-hat-1-pcs-captain-sailor-marine-cap-i138564388.html"
+         }, {
+            "date_added": "13291233312000000",
+            "date_last_used": "0",
+            "guid": "c4cd0836-7b90-49db-ab86-16191189bd14",
+            "id": "12",
+            "name": "https://www.daraz.com.bd/products/bestgobts-creative-piercing-ring-baseball-cap-punk-gorras-bonel-hip-hop-caps-i135048908-s1063656920.html?",
+            "type": "url",
+            "url": "https://www.daraz.com.bd/products/bestgobts-creative-piercing-ring-baseball-cap-punk-gorras-bonel-hip-hop-caps-i135048908-s1063656920.html?"
+         }, {
+            "date_added": "13291666632000000",
+            "date_last_used": "0",
+            "guid": "98115199-bad8-4f44-abdd-4a8c8c3adbd3",
+            "id": "13",
+            "name": "Learn Java | Codecademy",
+            "type": "url",
+            "url": "https://www.codecademy.com/courses/learn-java/lessons/hello-world-java/exercises/hello-java-file"
+         }, {
+            "date_added": "13291833839000000",
+            "date_last_used": "0",
+            "guid": "02b6f858-db9b-4cb7-87c2-201461a71f9a",
+            "id": "14",
+            "name": "Java Data Types",
+            "type": "url",
+            "url": "https://www.w3schools.com/java/java_data_types.asp"
+         }, {
+            "date_added": "13291834651000000",
+            "date_last_used": "0",
+            "guid": "2ea15163-a0e3-47a3-a659-ca34021af006",
+            "id": "15",
+            "name": "Java Type Casting",
+            "type": "url",
+            "url": "https://www.w3schools.com/java/java_type_casting.asp"
+         }, {
+            "date_added": "13291834994000000",
+            "date_last_used": "0",
+            "guid": "363dcab6-02fa-4441-bdcc-0a4fd2a5165c",
+            "id": "16",
+            "name": "Java Math",
+            "type": "url",
+            "url": "https://www.w3schools.com/java/java_math.asp"
+         }, {
+            "date_added": "13291876679000000",
+            "date_last_used": "0",
+            "guid": "6f1a960d-9ee1-439f-a31b-8ae8deb09758",
+            "id": "17",
+            "name": "Java User Input (Scanner class)",
+            "type": "url",
+            "url": "https://www.w3schools.com/java/java_user_input.asp"
+         }, {
+            "date_added": "13292183922000000",
+            "date_last_used": "0",
+            "guid": "4c709429-58b5-4dae-954e-661dceb4b310",
+            "id": "18",
+            "name": "(1) ✂️ Savage - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/clip/Ugkx-zutHQEu2tHJXWjEgUNjkMHXvXKaZ7Bq"
+         }, {
+            "date_added": "13292186846000000",
+            "date_last_used": "0",
+            "guid": "c897f366-0240-44bb-ba6a-44dd9a45d0fd",
+            "id": "19",
+            "name": "Kwalee",
+            "type": "url",
+            "url": "https://developer.kwalee.com/signup?invite=VVNPUl9pbnZpdGVfbGlua18xMTQ%3D&gclid=CjwKCAjw_tWRBhAwEiwALxFPocHROg5wbkCQ6UWINfgXZzKvKQ3pVJec_WhVsVLNtrZY5rbwdQubhhoCVKEQAvD_BwE"
+         }, {
+            "date_added": "13292523946000000",
+            "date_last_used": "0",
+            "guid": "e93a42d8-a5e1-491c-9f9d-7fa37afa4b2b",
+            "id": "20",
+            "name": "Get Homework Help with Chegg Study | Chegg.com",
+            "type": "url",
+            "url": "https://www.chegg.com/study?c_id=YouTube&utm_medium=YouTube&utm_source=DV360&utm_content=153063100&utm_campaign=CS-YouTube-CS_PROSP_APAC_2022H1&dclid=&gclid=CjwKCAjwiuuRBhBvEiwAFXKaNKIpUwa8fgGfd3uBT5xTKcTDgMtIuZ9n0RzpTm4IRyBSEanIIALEnBoCYsQQAvD_BwE"
+         }, {
+            "date_added": "13293891344000000",
+            "date_last_used": "0",
+            "guid": "e047e049-0e43-46f4-a461-812034365898",
+            "id": "21",
+            "name": "11b928ca94fedfa000b802bf56fa011a2b7ced0e — ImgBB",
+            "type": "url",
+            "url": "https://ibb.co/gPT96nW"
+         }, {
+            "date_added": "13293915673000000",
+            "date_last_used": "0",
+            "guid": "20f30feb-8067-46d9-8c8f-0897e3c1a85b",
+            "id": "22",
+            "name": "ONE STOP Merchandise - Home | Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/onestopmerchant"
+         }, {
+            "date_added": "13293915736000000",
+            "date_last_used": "0",
+            "guid": "eed76b9d-9e09-4c6e-b7bd-49b5c27faf4e",
+            "id": "23",
+            "name": "Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/onestopmerchant/photos/a.950647455083713/2144569769024803/"
+         }, {
+            "date_added": "13293915905000000",
+            "date_last_used": "0",
+            "guid": "e2c2f26d-9781-41fd-9c5e-52102b207a75",
+            "id": "24",
+            "name": "Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/onestopmerchant/photos/pcb.2107083442773436/2107081539440293"
+         }, {
+            "date_added": "13293916148000000",
+            "date_last_used": "0",
+            "guid": "a85f2c82-4baa-4c73-bf12-4aeaa2e08030",
+            "id": "25",
+            "name": "Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/onestopmerchant/photos/pcb.2083734035108377/2083733521775095"
+         }, {
+            "date_added": "13294350869000000",
+            "date_last_used": "0",
+            "guid": "82a86652-ac36-4ea4-b6d8-e455ccdf9a0b",
+            "id": "26",
+            "name": "(3) How to get the Ram Rune | The Ability to break the Ground Floors | Dead Cells - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=B8C-2udm_gM"
+         }, {
+            "date_added": "13295533999000000",
+            "date_last_used": "0",
+            "guid": "765779ec-34a1-427d-bb71-b1b2f6a4bc05",
+            "id": "27",
+            "name": "https://www.daraz.com.bd/products/aisilin-no-7389k-no-6089k-42-1-i157742083-s1129819355.html?spm=a2a0e.searchlist.list.7.61236d57E2rvb7&search=1",
+            "type": "url",
+            "url": "https://www.daraz.com.bd/products/aisilin-no-7389k-no-6089k-42-1-i157742083-s1129819355.html?spm=a2a0e.searchlist.list.7.61236d57E2rvb7&search=1"
+         }, {
+            "date_added": "13295716538000000",
+            "date_last_used": "0",
+            "guid": "9122693a-a5cc-4235-9e78-3dadbe0243da",
+            "id": "28",
+            "name": "Hand Gesture Controlled Car Using Arduino🤜🚗 - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=fec-XFwayz8"
+         }, {
+            "date_added": "13296309376000000",
+            "date_last_used": "0",
+            "guid": "23f8bda1-f5a4-410c-b5f6-0007ac50bf07",
+            "id": "29",
+            "name": "(7) How to Play audio with Arduino - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=aaqaAXlZbuc"
+         }, {
+            "date_added": "13297892189000000",
+            "date_last_used": "0",
+            "guid": "af6e68c6-14f4-4c56-bac9-044b3b3ab319",
+            "id": "30",
+            "name": "MS Golden Bunk Bed Without Mattress BBS0059| Online Furniture Shopping in Bangladesh",
+            "type": "url",
+            "url": "https://www.furniturebari.com/bunk_bed/bunk_bed_bbs0059"
+         }, {
+            "date_added": "13297974823000000",
+            "date_last_used": "0",
+            "guid": "02f932b2-7bf2-476d-9b1b-7acacb7b6a08",
+            "id": "31",
+            "name": "同意します- Leaverbuster Japanese - League of Legends - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=YK1S57TtrFM"
+         }, {
+            "date_added": "13299422290000000",
+            "date_last_used": "0",
+            "guid": "37c291d7-c741-4f6a-93a0-d812997f69d1",
+            "id": "32",
+            "name": "(30) How To Make Roti Making Machine From PVC! DIY Tortilla Maker - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=uVSYbm5EO14"
+         }, {
+            "date_added": "13300010152000000",
+            "date_last_used": "0",
+            "guid": "51a01a03-c6f8-4ccb-99fb-be4d62a27958",
+            "id": "33",
+            "name": "Solve 2x+3/4-x-2/3=2 | Microsoft Math Solver",
+            "type": "url",
+            "url": "https://mathsolver.microsoft.com/en/solve-problem/%60frac%7B%202x%2B3%20%20%7D%7B%204%20%20%7D%20%20-%20%60frac%7B%20x-2%20%20%7D%7B%203%20%20%7D%20%20%3D2"
+         }, {
+            "date_added": "13300014537000000",
+            "date_last_used": "0",
+            "guid": "34cc743e-2d13-4f62-9ef8-7b50b207f18d",
+            "id": "34",
+            "name": "League of Legends voice assistant for more fun and Elo!",
+            "type": "url",
+            "url": "https://gitgut.ai/"
+         }, {
+            "date_added": "13302728399000000",
+            "date_last_used": "0",
+            "guid": "a2f1efa2-a53d-440c-b45c-5a81e881ddf7",
+            "id": "35",
+            "name": "(100) Top 10 Best Indie Games of 2021 - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=u-ronEQXB08"
+         }, {
+            "date_added": "13306579747000000",
+            "date_last_used": "0",
+            "guid": "08f12ad7-27b1-46ef-83eb-3edcec752a52",
+            "id": "36",
+            "name": "Releases · 19MisterX98/SeedcrackerX · GitHub",
+            "type": "url",
+            "url": "https://github.com/19MisterX98/SeedcrackerX/releases"
+         }, {
+            "date_added": "13385900145000000",
+            "date_last_used": "0",
+            "guid": "55062ba6-57da-45e3-9647-4f250d092e64",
+            "id": "37",
+            "name": "GCSE (Edexcel) Revision | 1st Class Maths",
+            "type": "url",
+            "url": "https://www.1stclassmaths.com/edexcelrevision"
+         }, {
+            "date_added": "13386509338000000",
+            "date_last_used": "0",
+            "guid": "76fab5fb-6c47-4fd8-a716-f8007113ce03",
+            "id": "38",
+            "name": "(13) Vectors - Finding Ratios (IGCSE Exam Question) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=Q-ZQgpgzyv4"
+         }, {
+            "date_added": "13387049508000000",
+            "date_last_used": "0",
+            "guid": "75963748-8ac0-42b3-a5d0-0d9ee50d2d8e",
+            "id": "39",
+            "name": "Maths Genie - Free Online GCSE and A Level Maths Revision",
+            "type": "url",
+            "url": "https://www.mathsgenie.co.uk/"
+         }, {
+            "date_added": "13388179937000000",
+            "date_last_used": "0",
+            "guid": "10040864-b923-4a98-9d01-cc3d51cdc4cf",
+            "id": "40",
+            "name": "edexcel-international-gcse-9-1-mathematics-a-student-book-2-by-d-a-turner-i-a-potts-leibniz-math.org_.pdf",
+            "type": "url",
+            "url": "https://leibnizmath.wordpress.com/wp-content/uploads/2020/08/edexcel-international-gcse-9-1-mathematics-a-student-book-2-by-d-a-turner-i-a-potts-leibniz-math.org_.pdf"
+         }, {
+            "date_added": "13388180202000000",
+            "date_last_used": "0",
+            "guid": "28540ff6-6fc6-4ffd-b9bb-fc3c2eb7b353",
+            "id": "41",
+            "name": "05874_P001_688.indb",
+            "type": "url",
+            "url": "https://content.fimsschools.com/pdfdrive.com.pk/Edexcel_iGCSE_Maths%20Textbook%20(1).pdf"
+         }, {
+            "date_added": "13388181056000000",
+            "date_last_used": "0",
+            "guid": "9da64e19-50f5-4cfe-8dae-15338a55585a",
+            "id": "42",
+            "name": "Revise Pearson Edexcel GCSE (9-1) Mathematics Revision Guide - Higher",
+            "type": "url",
+            "url": "https://www.pearsonschoolsandfecolleges.co.uk/asset-library/pdf/Secondary/mathematics/edexcel-gcse-maths/revise-samples/edexcel-gcse-maths-revision-guide-higher.pdf"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13389920417000000",
+                     "date_last_used": "0",
+                     "guid": "c6ef0e3f-1ae9-48ad-8b6c-5db714adc809",
+                     "id": "46",
+                     "name": "(291) The 5 Hardest GCSE Questions Series - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/playlist?list=PLqxP5EuGxPncYWWc1cXlcuhfcoo3Wl3Ru"
+                  }, {
+                     "date_added": "13389920762000000",
+                     "date_last_used": "0",
+                     "guid": "cd4561b5-0f52-46d2-9ce1-a402499c8b03",
+                     "id": "47",
+                     "name": "(291) Last Minute Maths Revision - May 2023 Maths Exam Paper 1 Non-Calculator | GCSE Maths - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=RAOW2jLp2SQ&list=PLqxP5EuGxPne0lfiYpR75ByTOmVn8zC8Y&index=2"
+                  } ],
+                  "date_added": "13393189014323966",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "1baefd70-145b-4990-a13d-a8ab969942d3",
+                  "id": "45",
+                  "name": "Study",
+                  "type": "folder"
+               }, {
+                  "date_added": "13391249857000000",
+                  "date_last_used": "0",
+                  "guid": "f5d7c106-6b97-4332-9c94-30b154eb734f",
+                  "id": "48",
+                  "name": "Corsair Vengeance LPX 8GB RAM Price in Bangladesh | Star Tech",
+                  "type": "url",
+                  "url": "https://www.startech.com.bd/Corsair-Vengeance-LPX-8GB"
+               }, {
+                  "date_added": "13391371863000000",
+                  "date_last_used": "0",
+                  "guid": "7d2b4498-6e67-45d8-b52d-4c57fb3c2f5e",
+                  "id": "49",
+                  "name": "how do I install tmodloader for cracked terraria? : r/PiratedGames",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/PiratedGames/comments/139d1v4/how_do_i_install_tmodloader_for_cracked_terraria/"
+               }, {
+                  "date_added": "13391864595000000",
+                  "date_last_used": "0",
+                  "guid": "0d4c6b2c-b0e5-4942-8c47-703b8a79c363",
+                  "id": "50",
+                  "name": "Prison Architect Linux Free Download (Native) » Free Linux PC Games",
+                  "type": "url",
+                  "url": "https://freelinuxpcgames.com/prison-architect/"
+               }, {
+                  "date_added": "13391865012000000",
+                  "date_last_used": "0",
+                  "guid": "90d80263-e2ca-4141-a8fe-08981bcfe75e",
+                  "id": "51",
+                  "name": "The Escapists 2 | GOG Games | Download Free GOG PC Games",
+                  "type": "url",
+                  "url": "https://gog-games.to/game/the_escapists_2"
+               }, {
+                  "date_added": "13391865063000000",
+                  "date_last_used": "0",
+                  "guid": "7769e6ad-9bef-40e6-8e07-7e88f40fea84",
+                  "id": "52",
+                  "name": "Darwinia - Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?sa=X&sca_esv=ffe7acc5946abd35&biw=1280&bih=681&sxsrf=AHTn8zpKEGUMYVnU_IRg_Cl9pMc9Qc4EQw:1747391251379&q=Darwinia&stick=H4sIAAAAAAAAAONgFuLSz9U3yK4sqTTOVeIEsU3MTIsKtZSzk630k8vS9ZPzcwtKS1KL4ssyU1Lz0xNzU62KgazyxMriR4wB3AIvf9wTlnKftObkNUZHLmJ0CUlwsbnmlWSWVArxSfFwIdlfxcCziJXDJbGoPDMvM3ECGyMAHge4gJ8AAAA&ved=2ahUKEwiDy8nW46eNAxVbnmMGHVzwCBQQ-BZ6BAg3EEI&stq=1&cs=1&lei=xxMnaOebJ6a_juMPpdWJgAI"
+               }, {
+                  "date_added": "13391865150000000",
+                  "date_last_used": "0",
+                  "guid": "325e9e24-63b7-4460-892a-cd15194d913a",
+                  "id": "53",
+                  "name": "The Survivalists - Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?sca_esv=ffe7acc5946abd35&biw=1280&bih=681&sxsrf=AHTn8zpQIohDedra2ekDndPmhGt_2bXNIQ:1747391502198&q=The+Survivalists&stick=H4sIAAAAAAAAAONgFuLVT9c3NEyJt8wqM0jPU4Jw0wqzi4vNzUq0lLOTrfSTy9L1k_NzC0pLUoviyzJTUvPTE3NTrYqBrPLEyuJHjMHcAi9_3BOW8pq05uQ1RhcuYnQJSXOxueaVZJZUCglK8XOhOqOKgWcRq0BIRqpCcGlRWWZZYk5mcUnxBDZGAOW4hRGxAAAA&sa=X&ved=2ahUKEwj6rZbO5KeNAxU82TgGHeMsGsUQ-BZ6BAgyEBU&stq=1&cs=1&lei=KBQnaNCPF-jw4-EP-sui8AI"
+               }, {
+                  "date_added": "13391865165000000",
+                  "date_last_used": "0",
+                  "guid": "ea15b24e-9a4c-48dc-b9e7-539fe3a07edc",
+                  "id": "54",
+                  "name": "The Escapists: The Walking Dead - Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?sca_esv=ffe7acc5946abd35&biw=1280&bih=681&sxsrf=AHTn8zpQIohDedra2ekDndPmhGt_2bXNIQ:1747391502198&q=The+Escapists:+The+Walking+Dead&stick=H4sIAAAAAAAAAONgFuLVT9c3NEyJt8wqM0jPU4Jw0w2yU0zjK5O0lLOTrfSTy9L1k_NzC0pLUoviyzJTUvPTE3NTrYqBrPLEyuJHjMHcAi9_3BOW8pq05uQ1RhcuYnQJSXOxueaVZJZUCglK8XOhOqOKgWcRq3xIRqqCa3FyYkFmcUmxlQKIG56Yk52Zl67gkpqYMoGNEQB9eMXswAAAAA&sa=X&ved=2ahUKEwj6rZbO5KeNAxU82TgGHeMsGsUQ-BZ6BAgyEBo&stq=1&cs=1&lei=MBQnaO2BNY3D4-EPqpSTiA4"
+               }, {
+                  "date_added": "13391865277000000",
+                  "date_last_used": "0",
+                  "guid": "f4bc7003-6982-4a1c-bd08-828bb8952c23",
+                  "id": "55",
+                  "name": "A Way Out - Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?sca_esv=ffe7acc5946abd35&biw=1280&bih=681&sxsrf=AHTn8zpQIohDedra2ekDndPmhGt_2bXNIQ:1747391502198&q=A+Way+Out&stick=H4sIAAAAAAAAAONgFuLVT9c3NEyJt8wqM0jPU4Jy03IqDExNSrSUs5Ot9JPL0vWT83MLSktSi-LLMlNS89MTc1OtioGs8sTK4keMwdwCL3_cE5bymrTm5DVGFy5idAlJc7G55pVkllQKCUrxc6E6o4qBZxErp6NCeGKlgn9pyQQ2RgArKtPHqgAAAA&sa=X&ved=2ahUKEwj6rZbO5KeNAxU82TgGHeMsGsUQ-BZ6BAgyECk&stq=1&cs=1&lei=QRQnaI_2GM6P4-EP7_jSmQk"
+               }, {
+                  "date_added": "13392577614000000",
+                  "date_last_used": "0",
+                  "guid": "e5b5160f-6d7b-4987-852a-dc2b23d3d02a",
+                  "id": "56",
+                  "name": "Cool stuff to do with Kali Linux? : r/HowToHack",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/HowToHack/comments/29dnej/cool_stuff_to_do_with_kali_linux/"
+               }, {
+                  "date_added": "13392577693000000",
+                  "date_last_used": "0",
+                  "guid": "5277b5cc-3d0d-4643-8e11-5e8913de1e83",
+                  "id": "57",
+                  "name": "OverTheWire: Wargames",
+                  "type": "url",
+                  "url": "https://overthewire.org/wargames/"
+               } ],
+               "date_added": "13393189014323272",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "c89cf9de-c8c3-455a-8e2f-184ef9bdb8c7",
+               "id": "44",
+               "name": "Other bookmarks",
+               "type": "folder"
+            } ],
+            "date_added": "13393189014323184",
+            "date_last_used": "0",
+            "date_modified": "13393189014323184",
+            "guid": "ed5063e4-2f91-49e1-a47f-ec287991a296",
+            "id": "43",
+            "name": "Imported from Google Chrome Nafis-Hossain.",
+            "type": "folder"
+         } ],
+         "date_added": "13393188916828999",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13393188916829002",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13393188916829006",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

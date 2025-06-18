@@ -1,0 +1,177 @@
+/* Define your custom colors */
+@define-color pink_accent #fe8019;
+@define-color hover #af3a03;
+@define-color dark_gray_base #282828;
+@define-color light_text #ebdbb2;
+@define-color dark_text_on_pink #333333;
+
+* {
+    font-family: "FantasqueSansM Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 999px;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    outline: none;
+    /* transition: all 0.3s ease; */ /* Can sometimes cause minor visual glitches on reload, enable if preferred */
+}
+
+window#waybar {
+    min-height: 0;
+    min-width: 0;
+    background-color: transparent;
+}
+
+/* Default for all modules */
+#clock,
+#custom-updates,
+#tray,
+#window,
+#workspaces,
+#mpris,
+#pulseaudio,
+#backlight,
+#battery,
+#language,
+#idle_inhibitor,
+#custom-wlogout,
+#bluetooth,
+#network { /* Added #network and #bluetooth here for common styling */
+    min-height: 0;
+    min-width: 0;
+    padding: 4px 12px;
+    margin-right: 6px;
+    color: @light_text;
+    background-color: alpha(@dark_gray_base, 0.8);
+    transition: all 0.3s ease; /* Moved transition here for modules */
+}
+
+/* Default hover for all modules */
+#clock:hover,
+#custom-updates:hover,
+#tray:hover,
+#window:hover,
+#mpris:hover,
+#pulseaudio:hover,
+#backlight:hover,
+#battery:hover,
+#language:hover,
+#idle_inhibitor:hover,
+#custom-wlogout:hover,
+#bluetooth:hover,
+#network:hover { /* Added #network:hover here */
+    color: @hover;
+    background-color: alpha(#ffffff, 0.5);
+}
+
+/* Remove margin if first or last (adjust if your modules are different) */
+/* This might need adjustment based on actual module placement if #workspaces isn't first/last */
+.modules-left > widget:first-child > #workspaces,
+.modules-left > widget:first-child > #clock, /* Example if clock is first */
+.modules-right > widget:last-child > #custom-wlogout, /* Example if wlogout is last */
+.modules-right > widget:last-child > #idle_inhibitor { /* Example */
+    margin-right: 0;
+}
+
+/* Don't show window's name if there's not one */
+window#waybar.empty #window {
+    background-color: transparent;
+    border: none;
+}
+
+/* Customize each module (specific overrides) */
+#clock {
+    /* margin-left: 0px; */ /* Covered by general first-child rule if applicable */
+    /* border-top-left-radius: 0; */ /* General border-radius is 999px */
+    /* border-bottom-left-radius: 0; */
+    /* padding-left: 6px; */ /* General padding is 4px 12px */
+}
+
+#pulseaudio {
+    padding-right: 18px; /* Specific override for pulseaudio */
+}
+
+/* #bluetooth styling is now part of the common block above */
+/* If you need specific overrides for #bluetooth, add them here, e.g.: */
+/*
+#bluetooth {
+    padding-left: 10px;
+}
+*/
+
+/* #network styling is now part of the common block above */
+/* If you want to style the disconnected state specifically: */
+#network.disconnected {
+    color: alpha(@light_text, 0.7); /* Example: slightly dimmer text */
+    /* Or use a different background or icon color */
+}
+
+#idle_inhibitor {
+    /* font-family: "MesloLGS Nerd Font"; */ /* Removed to use global Fantasque Nerd Font Bold */
+    /* font-size: 16px; */ /* Removed to use global 11px */
+    margin-right: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-right: 8px;
+}
+
+#custom-wlogout {
+    /* font-size: 16px; */ /* Removed to use global 11px */
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 8px;
+}
+
+#tray menu {
+    border-radius: 10px;
+    padding: 8px 6px;
+    background-color: alpha(@dark_gray_base, 0.9);
+    color: @light_text;
+}
+
+tooltip {
+    min-height: 0;
+    min-width: 0;
+    background-color: alpha(@dark_gray_base, 0.9);
+    border-radius: 20px; /* Increased from 0 to match other roundness */
+}
+
+tooltip label {
+    color: @light_text;
+    padding: 6px 10px; /* Added some padding to tooltips */
+}
+
+/* Workspaces */
+#workspaces {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+#workspaces button {
+    min-height: 0;
+    min-width: 0;
+    padding: 3px 8px;
+    margin: 1px 2px;
+    border-radius: 15px;
+    color: @light_text;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out; /* Adjusted from 0.5s */
+}
+
+#workspaces button.active {
+    color: @dark_text_on_pink;
+    background: @pink_accent;
+    border-radius: 15px;
+    min-width: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button:hover {
+    color: @hover;
+    background: alpha(@dark_gray_base, 0.5);
+    border-radius: 15px;
+}

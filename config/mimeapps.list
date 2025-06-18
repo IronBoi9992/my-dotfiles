@@ -1,0 +1,26 @@
+[Added Associations]
+application/x-compressed-tar=dolphin-2.desktop;dolphin.desktop;
+application/x-shellscript=kitty-5.desktop;kitty-4.desktop;gnome-text-editor-11.desktop;kitty-3.desktop;kitty-2.desktop;
+application/x-zerosize=org.kde.gwenview.desktop;org.gnome.TextEditor.desktop;
+image/gif=org.kde.gwenview.desktop;
+image/jpeg=gwenview.desktop;
+image/png=org.kde.gwenview.desktop;imv.desktop;
+image/webp=com.google.Chrome.desktop;
+text/css=org.gnome.TextEditor.desktop;
+text/plain=gnome-text-editor-10.desktop;gnome-text-editor-9.desktop;org.gnome.TextEditor.desktop;
+
+[Default Applications]
+application/x-compressed-tar=dolphin-2.desktop;
+application/x-shellscript=kitty-5.desktop;
+application/x-zerosize=org.gnome.TextEditor.desktop
+image/gif=org.kde.gwenview.desktop
+image/jpeg=gwenview.desktop;
+image/png=imv.desktop
+image/webp=com.google.Chrome.desktop
+text/css=org.gnome.TextEditor.desktop;
+text/html=google-chrome.desktop
+text/plain=gnome-text-editor-10.desktop;
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop

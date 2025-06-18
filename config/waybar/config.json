@@ -1,0 +1,178 @@
+{
+    "layer": "top",
+    "reload_style_on_change": true,
+    "spacing": 0,
+    "margin-top": 8,
+    "margin-right": 8,
+    "margin-left": 8,
+    "margin-bottom": 0,
+    "fixed-center": true,
+    "modules-left": [
+        "clock",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "mpris",
+        "pulseaudio",
+        "backlight",
+        "network",
+        "bluetooth",
+        "idle_inhibitor",
+        "custom/wlogout"
+    ],
+    // Modules configuration
+    "backlight": {
+        "scroll-step": 10.0,
+        "tooltip": false,
+        "format": "{icon} {percent}%",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    
+    "network": {
+        "interface": "wlan0",
+        "format-wifi": " {essid}",
+        "format-disconnected": "󰖪 Disconnected",
+        "tooltip-format": "SSID: {essid}\nFrequency: {frequency} GHz",
+        "on-click": "kitty --hold iwctl"  
+},
+
+    "bluetooth": {
+    "format": " {status}", // Default format - good for general status (on/off/disabled)
+    "format-on": " {num_connections}", // Shows Bluetooth icon and number of connections when active
+    "format-off": " Off",
+    "format-disabled": " Disabled",
+    "tooltip-format": "Bluetooth: {status}", // Default tooltip
+    "tooltip-format-on": "Bluetooth: On\nConnected: {num_connections}",
+    "tooltip-format-off": "Bluetooth: Off",
+    "tooltip-format-disabled": "Bluetooth: Disabled",
+    "on-click": "blueman-manager",
+    "on-click-right": "blueman-manager",
+    "on-scroll-up": "bluetoothctl power on",
+    "on-scroll-down": "bluetoothctl power off",
+    "icons": {
+        "enabled": "",    // Bluetooth icon
+        "disabled": "",    // Bluetooth Low Energy icon
+        "connected": "",  // Bluetooth icon
+        "none": ""       // Bluetooth Low Energy icon
+    },
+    "status-icons": {
+        "on": "",
+        "off": "",
+        "disabled": ""
+    }
+},
+
+    "clock": {
+        "interval": 1,
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "<tt>{calendar}</tt>",
+        "on-click": "swaync-client -t -sw",
+        "calendar": {
+            "mode": "month",
+            "mode-mon-col": 3,
+            "on-scroll": 1,
+            "on-click-right": "mode",
+            "format": {
+                "months": "<span color='#ffead3'><b>{}</b></span>",
+                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+                "today": "<span color='#ff6699'><b>{}</b></span>"
+            }
+        },
+        "actions": {
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
+    "mpris": {
+        "format": "󰐊 {dynamic}",
+        "format-paused": "󰏤 {dynamic}",
+        "max-length": 30
+    },
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon} ",
+        "format-bluetooth-muted": "󰖁 {icon} ",
+        "format-muted": "󰖁",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click-middle": "~/.config/waybar/scripts/toggle_right_channel.sh"
+        
+    },
+    "tray": {
+        "spacing": 10
+    },
+    
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    },
+    "custom/updates": {
+        "format": "{}",
+        "interval": 3600,
+        "on-click": "kitty --class update arch-update",
+        "exec": "~/.config/waybar/scripts/checkupdates.sh",
+        "return-type": "json"
+    },
+    "custom/wlogout": {
+        "format": "",
+        "on-click": "~/.config/hypr/scripts/wlogout.sh",
+        "tooltip": false
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        },
+        "tooltip-format-activated": "The computer is prevented from going to sleep",
+        "tooltip-format-deactivated": "The computer will go to sleep if the user is idle"
+    },
+    "hyprland/workspaces": {
+        "all-outputs": false,
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+            "active": "",
+            "default": ""
+        },
+        "on-scroll-up": "hyprctl dispatch workspace r+1",
+        "on-scroll-down": "hyprctl dispatch workspace r-1"
+    },
+    "hyprland/window": {
+        "max-length": 25,
+        "separate-outputs": true,
+        "format": "{title}"
+    },
+    "hyprland/language": {
+        "format": " <span text_transform=\"uppercase\">{short}</span> <span text_transform=\"capitalize\">{variant}</span>",
+        "on-click": "~/.config/hypr/scripts/switch-keyboard-layout.sh"
+    }
+}

@@ -1,0 +1,83 @@
+/* Define Gruvbox colors for Wofi */
+@define-color gruvbox_bg_main #282828;       /* dark0 - Main background */
+@define-color gruvbox_fg_main #ebdbb2;       /* light1 - Main foreground text */
+@define-color gruvbox_accent #fabd2f;        /* bright_yellow - Primary accent for selection */
+@define-color gruvbox_selection_bg #3c3836;  /* dark1 - Slightly lighter background for input/selection */
+@define-color gruvbox_border #504945;       /* dark2 - For borders */
+@define-color gruvbox_red #fb4934;           /* bright_red - For errors/warnings */
+@define-color gruvbox_gray #928374;          /* gray */
+@define-color gruvbox_orange_bright #fe8019; /* Bright orange for selection */
+
+
+* {
+    font-family: "FantasqueSansM Nerd Font", "Font Awesome 6 Free", "Font Awesome 6 Brands", sans-serif;
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+
+window {
+    background-color: @gruvbox_bg_main;
+    border: 2px solid @gruvbox_border;
+    border-radius: 10px; /* Rounded corners for the main window */
+    padding: 15px; /* Padding inside the window */
+}
+
+
+#input {
+    background-color: @gruvbox_selection_bg;
+    color: @gruvbox_fg_main;
+    border-radius: 5px; /* Rounded corners for input field */
+    padding: 8px 12px;
+    margin-bottom: 15px; /* Space below input field */
+}
+
+
+#inner-box {
+    margin: 0;
+    padding: 0;
+}
+
+
+#outer-box {
+    margin: 0;
+    padding: 0;
+}
+
+
+#scroll {
+    margin: 0;
+    padding: 0;
+}
+
+
+#text {
+    color: @gruvbox_fg_main; /* Default text color for entries */
+}
+
+
+#entry {
+    padding: 8px 12px;
+    margin: 2px 0; /* Vertical spacing between entries */
+    border-radius: 5px; /* Rounded corners for entries */
+    min-height: 0; /* Ensure minimal height for entries */
+}
+
+
+#entry:selected {
+    background-color: @gruvbox_orange_bright; /* Orange accent for selected item background */
+    color: @gruvbox_bg_main; /* Dark text on bright accent for selected item */
+    outline: none; /* Remove default outline */
+}
+
+
+#entry:selected #text {
+    color: @gruvbox_bg_main; /* Ensure text color changes on selection */
+}
+
+
+/* Optional: Style a placeholder text if wofi supports it */
+#text:empty::before {
+    content: "Search...";
+    color: @gruvbox_gray;
+}
+

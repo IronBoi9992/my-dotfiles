@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "50eaae84-2c4e-4942-b009-6634ae8ffad0",
+      "logo": {
+        "imageUrl": "a0875467-7c3a-4024-bfb6-9b9d2fc8c365/ed11569a-d1c9-4d3b-8445-6a49384d2af3.png",
+        "destinationUrl": "https://brave.com/podcast/e72/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+        "alt": "Brave Technologist Podcast - Listen Now",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "a0875467-7c3a-4024-bfb6-9b9d2fc8c365/eaf9ddfd-3a68-4ee2-b91f-3087f3223590.jpeg",
+          "creativeInstanceId": "79fdca72-a4f0-4bfb-939b-d4709d493a60",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "50eaae84-2c4e-4942-b009-6634ae8ffad0",
+      "logo": {
+        "imageUrl": "a0875467-7c3a-4024-bfb6-9b9d2fc8c365/ed11569a-d1c9-4d3b-8445-6a49384d2af3.png",
+        "destinationUrl": "https://brave.com/podcast/e72/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+        "alt": "Brave Technologist Podcast - Listen Now",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "a0875467-7c3a-4024-bfb6-9b9d2fc8c365/eaf9ddfd-3a68-4ee2-b91f-3087f3223590.jpeg",
+          "creativeInstanceId": "79fdca72-a4f0-4bfb-939b-d4709d493a60",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}

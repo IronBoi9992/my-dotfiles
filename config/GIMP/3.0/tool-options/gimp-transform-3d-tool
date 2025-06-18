@@ -1,0 +1,6 @@
+# GIMP gimp-transform-3d-tool options
+
+(background
+    (color "CIE LCH(ab) alpha float" 16 "\0\0\310B\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+
+# end of gimp-transform-3d-tool options

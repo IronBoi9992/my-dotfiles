@@ -1,0 +1,42 @@
+# General ignores for temporary files, logs, and editor backups
+*.cache/
+*cache/
+*.log
+*.log.*
+tmp/
+temp/
+*.tmp
+*.swp
+*.bak
+*~
+*.local/
+*.DS_Store # Common macOS ignore, harmless to include
+
+# Application-specific ignores for large data/profiles
+brave-browser/
+chromium/
+google-chrome/
+discord/
+firefox/
+spotify/
+VSCodium/
+Code/
+electron/ # For many Electron-based apps
+
+# Neovim specific ignores (actual plugins are managed by Nvim itself)
+nvim/swap/
+nvim/undo/
+nvim/.netrwhist
+nvim/bundle/
+nvim/pack/
+
+# Hyprland/Wayland specific ignores
+hypr/.lock
+hyprland.log
+
+# Flatpak specific ignores (Flatpak apps manage their own data)
+flatpak/
+
+# Any other large, volatile, or sensitive directories you don't want to backup
+# Add more lines here as you find unneeded files/directories in your backup
+
